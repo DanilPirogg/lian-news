@@ -1,0 +1,387 @@
+@font-face {
+    font-family: '8157';
+    src: url('../fonts/8157.eot');
+    src: url('../fonts/8157.eot') format('embedded-opentype'),
+    url('../fonts/8157.woff2') format('woff2'),
+    url('../fonts/8157.woff') format('woff'),
+    url('../fonts/8157.ttf') format('truetype'),
+    url('../fonts/8157.svg#8157') format('svg');
+}
+
+@font-face {
+    font-family: '3962';
+    src: url('../fonts/3962.eot');
+    src: url('../fonts/3962.eot') format('embedded-opentype'),
+    url('../fonts/3962.woff2') format('woff2'),
+    url('../fonts/3962.woff') format('woff'),
+    url('../fonts/3962.ttf') format('truetype'),
+    url('../fonts/3962.svg#3962') format('svg');
+}
+@font-face {
+    font-family: 'LatoBold';
+    src: url('../fonts/LatoBold.eot');
+    src: url('../fonts/LatoBold.eot') format('embedded-opentype'),
+    url('../fonts/LatoBold.woff2') format('woff2'),
+    url('../fonts/LatoBold.woff') format('woff'),
+    url('../fonts/LatoBold.ttf') format('truetype'),
+    url('../fonts/LatoBold.svg#LatoBold') format('svg');
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../fonts/RobotoBold.eot');
+    src: url('../fonts/RobotoBold.eot') format('embedded-opentype'),
+    url('../fonts/RobotoBold.woff2') format('woff2'),
+    url('../fonts/RobotoBold.woff') format('woff'),
+    url('../fonts/RobotoBold.ttf') format('truetype'),
+    url('../fonts/RobotoBold.svg#RobotoBold') format('svg');
+}
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fonts/RobotoRegular.eot');
+    src: url('../fonts/RobotoRegular.eot') format('embedded-opentype'),
+    url('../fonts/RobotoRegular.woff2') format('woff2'),
+    url('../fonts/RobotoRegular.woff') format('woff'),
+    url('../fonts/RobotoRegular.ttf') format('truetype'),
+    url('../fonts/RobotoRegular.svg#RobotoRegular') format('svg');
+}
+@font-face {
+    font-family: 'RobotoItalic';
+    src: url('../fonts/RobotoItalic.eot');
+    src: url('../fonts/RobotoItalic.eot') format('embedded-opentype'),
+    url('../fonts/RobotoItalic.woff2') format('woff2'),
+    url('../fonts/RobotoItalic.woff') format('woff'),
+    url('../fonts/RobotoItalic.ttf') format('truetype'),
+    url('../fonts/RobotoItalic.svg#RobotoItalic') format('svg');
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+.menu a {
+    outline: none;
+    text-decoration: none;
+    font-family: 'LatoBold';
+
+}
+
+img {
+    border: none;
+}
+
+body {
+    width: 100%;
+    background-color: #fafafa;
+
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 5px 4px #b8bcbe;
+    box-shadow: 0 0 5px 4px #b8bcbe;
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+header a img.logo {
+    float: left;
+    margin-top: 28px;
+}
+
+header .container:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+header .container .menu {
+    margin-top: 40px;
+    float: right;
+}
+
+header .container .menu a {
+    line-height: 12px;
+    margin-right: 45px;
+    color: #777777;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*position: relative;*/
+}
+
+header .container .menu a:hover {
+    color: #000000;
+}
+section img{
+    width: 100%;
+}
+
+
+header .container:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+.menu  a:before{
+    content: "—";
+    color: transparent;
+}
+.menu  a:hover:before{
+    content: "—";
+    color: black;
+}
+
+.container-1 h1 {
+    position: absolute;
+    top: 150px;
+    left: 180px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    line-height: 40px;
+    padding: 0 15px;
+    font-family: '3962';
+
+}
+.container-1{
+    position: relative;
+    z-index: 0;
+}
+.container-1 h2 {
+    position: absolute;
+    color: #404040;
+    top: 210px;
+    left: 180px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    font-family: '3962';
+
+}
+img.banner{
+    margin-bottom: 70px;
+}
+.container-main{
+    max-width: 950px;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+}
+.container-main h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: '3962';
+    margin-bottom: 25px;
+}
+div.text-bold{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 435px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+div.text-bold i{
+    padding-right: 5px;
+    color:#777777 ;
+
+}
+div.text-bold h3{
+    color:#777777 ;
+    font-size: 14px;
+    font-family: 'LatoBold';
+}
+.lamps{
+    margin-bottom: 50px;
+}
+.pfirst {
+    padding-bottom: 20px;
+}
+.pfirst, .psecond{
+    max-width: 800px;
+  margin: auto;
+}
+.pfirst p, .psecond p{
+    color: #989898;
+    padding-bottom: 23px;
+    font-size: 13px;
+    font-family: 'RobotoRegular';
+}
+div.container-border{
+    max-width: 940px;
+    margin: auto;
+    border: solid 1px #e1e1e1;
+border-left:solid 4px #e1e1e1 ;
+    margin-bottom: 40px;
+}
+.text-in-border p{
+    font-family: '8157';
+    font-size: 16px;
+    color: #777777;
+    padding-bottom: 10px;
+
+}
+.text-in-border{
+    /*padding: 15px 15px;*/
+margin: auto;
+max-width: 810px;
+    padding-top: 20px;
+    padding-bottom: 25px;}
+.heading-text{
+    margin: auto;
+    max-width: 805px;
+}
+.heading-text h3{
+    font-family: 'RobotoBold';
+   text-transform: uppercase;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.pfirstsec {
+    padding-bottom: 20px;
+}
+.pfirstsec, .psecondsec{
+    max-width: 800px;
+    margin: auto;
+}
+.pfirstsec p, .psecondsec p{
+    color: #989898;
+    padding-bottom: 23px;
+    font-size: 13px;
+    font-family: 'RobotoRegular';
+}
+.psecondsec{
+    margin-bottom: 80px;
+}
+.leave h2{
+    margin-bottom: 50px;
+}
+form {
+    /*margin-top: -157px;*/
+    /*float: right;*/
+    max-width: 925px;
+    display: block;
+    margin-bottom: 85px;
+
+}
+ form input:nth-child(1) {
+    width: 250px;
+    line-height: 40px;
+    padding-left: 9px;
+    border: solid 1px #bababa;
+    border-left: solid 3px #afafaf;
+    margin-right: 87px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+    outline: none;
+}
+
+form input:nth-child(2) {
+    width: 250px;
+    line-height: 40px;
+    padding-left: 12px;
+    border: solid 1px #ebebeb;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+    outline: none;
+    margin-right: 87px;
+}
+form input:nth-child(3) {
+    width: 250px;
+    line-height: 40px;
+    padding-left: 12px;
+    border: solid 1px #ebebeb;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+    outline: none;
+
+}
+ textarea {
+    width: 100%;
+    resize: none;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 11px 11px;
+    border: solid 1px #ebebeb;
+    margin-bottom: 29px;
+    font-family: 'RobotoItalic';
+    outline: none;
+}
+
+
+form button {
+    line-height: 25px;
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: black;
+    padding: 14px 57px;
+    color: #ffffff;
+    border: none;
+    font-family: 'RobotoBold';
+    letter-spacing: 2px;
+    border-radius: 3px;
+    outline: none;
+}
+.button{
+    margin: auto;
+    max-width: 250px;
+}
+footer{
+    position: relative;
+    z-index: 1000;
+    height: 100%;
+    background-color: white;
+    -webkit-box-shadow: 0 0 4px 5px #f2f2f2;
+}
+.finish-logo{
+    text-align: center;
+}
+.finish-logo img{
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+.container-5{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: solid 1px #ebebeb;
+    border-bottom: solid 1px #ebebeb;
+    margin-bottom: 37px;
+}
+.icons{
+    margin: auto;
+    max-width: 475px;
+}
+i{
+    color: #777777;
+    padding-right: 50px;
+}
+.end-text{
+
+    text-align: center;
+    margin-bottom: 40px;
+}
+.end-text p{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'RobotoRegular';
+    color: #b8b8b8;
+}
+.end-text span{
+    color: #000000;
+    font-family: 'RobotoRegular';
+}
